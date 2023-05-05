@@ -1,4 +1,5 @@
 import 'class.dart';
+import 'interface.dart';
 
 void main() {
   var p = Person();
@@ -7,4 +8,7 @@ void main() {
   p.name = "Hira";
   p.notice();
   print(p.age);
+
+  calculate call = cal();
+  call.calculater();
 }
